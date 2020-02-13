@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock-Paper-Scissors</title>
+    <style>
+      body {
+  background-color: lightblue;
+}
+div {
+  
+  margin: 250px 50px 175px 290px;
+  background-color: lightblue;
+}
+
+
+    </style>
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+
+  <body>
+    <div id="message"></div>
+    <div id="controls">
+      <button onclick="rock()">Rock</button>
+      <button onclick="paper()">Paper</button>
+      <button onclick="scissors()">Scissors</button>
+    </div>
+    <script src="/static/game.js"></script>
+  </body>
+</html>
